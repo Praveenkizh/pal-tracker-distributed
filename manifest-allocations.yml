@@ -4,7 +4,7 @@ applications:
   host: allocations-pal-pk
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-pk.apps.cumuluslabs.io
+
   services:
   - tracker-allocations-database
+  - tracker-service-registry

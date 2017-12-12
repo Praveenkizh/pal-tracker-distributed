@@ -12,5 +12,5 @@ applications:
   - tracker-timesheets-database
   - tracker-service-registry
   - tracker-circuit-breaker-dashboard
-  - tracker-amq
+  - tracker-amqp
   - tracker-sso

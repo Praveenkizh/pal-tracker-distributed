@@ -25,7 +25,8 @@ public class OauthResourceServerConfig extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         // enforce authentication on our API endpoints.
-        http.authorizeRequests().antMatchers("/health/**").permitAll().anyRequest().authenticated();
+        http.authorizeRequests().anyRequest().authenticated();
+        //http.authorizeRequests().antMatchers("/health/**").permitAll().anyRequest().authenticated();
     }
 
     @Override

@@ -11,7 +11,7 @@ applications:
 
   services:
   - tracker-backlog-database
-  - tracker-service-registry
-  - tracker-circuit-breaker-dashboard
+  - movie-fun-registry
+  - movie-fun-circuit-breaker
   - tracker-amqp
   - tracker-sso

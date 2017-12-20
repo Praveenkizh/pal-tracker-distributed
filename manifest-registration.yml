@@ -10,7 +10,7 @@ applications:
     SECURITY_USER_PASSWORD: operations4red
   services:
   - tracker-registration-database
-  - tracker-service-registry
-  - tracker-circuit-breaker-dashboard
+  - movie-fun-registry
+  - movie-fun-circuit-breaker
   - tracker-amqp
   - tracker-sso
